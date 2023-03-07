@@ -13,5 +13,7 @@ public class Car {
         this.year = year;
         this.color = color;
     }
-
+    public void showMe(){
+        System.out.println(this.year + " " + this.color);
+    }
 }
